@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="weblap.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">Tea Mágia</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Kezdőlap</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Rólunk</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menü</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Visszajelzések</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Galéria</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Elérhetőség</a>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Élvezd a legfinomabb teákat.</h2>
+                    <h3 class="subtitle">Indítsd a napod egy csésze különleges teával, ami feltölt és frissít!</h3>
+                    <p class="description">Lépj be teás szentélyünkbe, ahol minden egyes levél egy varázslatos történetet mesél, és minden csésze a pihenés és harmónia élményét hozza.</p>
+
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Rendeld meg most</a>
+                        <a href="#" class="button content-us">Lépjen kapcsolatba velünk</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="img/hero-image-wrapper.png" alt="Hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+         <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="img/pexels-olly-842548.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">Rólunk</h2>
+                    <p class="text">
+                        Fedezd fel a Tea Mágia varázsát Miskolcon! Nálunk a tea nem csupán egy ital, hanem egy élmény, ami minden érzéket elbűvöl. Különleges helyet kínálunk, ahol a tea szerelmesei és a nyugodt beszélgetésekre vágyók találkozhatnak, miközben egy meghitt, barátságos atmoszférában pihenhetnek és feltöltődhetnek. Célunk, hogy minden csésze teánk egy kis harmóniát és boldogságot csempésszen a napodba.
+                    </p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Menu section -->
+          <section class="menu-section" id="menu">
+            <h2 class="section-title">Menü</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="img/aromatic-tea-vintage-cup-saucer-b.png" alt="Hot Beverages" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Forró italok</h3>
+                            <p class="text">Fedezd fel gőzölgő teáink széles választékát, amelyek felfrissítik érzékeidet és feldobják a napodat.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="img/menu-Cold Beverages (Custom).png" alt="Cold Beverages" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Hideg italok</h3>
+                            <p class="text">Kóstold meg krémes, frissítő jeges teáinkat, amelyek garantáltan lehűtenek és feltöltenek energiával.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="img/delicious-berry-smoothie-glass-transparent-background-b.png" alt="Refreshment" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Frissítő italok</h3>
+                            <p class="text">Élvezd gyümölcsös és jeges teakeverékeinket, amelyek felfrissítik a tested és az elméd.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="img/rb_27837.png" alt="Special Combos" class="menu-image">
+                        <div class="menu details">
+                            <h3 class="name">Különleges kombinációk</h3>
+                            <p class="text">Tökéletes párosítások kedvenc teáid és harapnivalóid között, hogy még élvezetesebb legyen az élmény.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="img/menu-dessert (Custom).png" alt="Dessert" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Desszertek</h3>
+                            <p class="text">Kényeztesd ízlelőbimbóidat édes finomságainkkal, amelyeket kedvenc teáid mellé álmodtunk meg.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="img/zigni-isolated-transparent-background-b.png" alt="burger & French" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Falatok és Harapnivalók</h3>
+                            <p class="text">Gyorsan elkészíthető finomságok, amelyek tökéletesen kiegészítik teáidat és csillapítják kisebb étvágyadat.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+          </section>
+
+          <!-- Testimonials section -->
+          <section class="testimonials-section" id="testimonials">
+            <h2 class="section-title">Visszajelzések</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonials swiper-slide">
+                                <img src="img/user1.jpg" alt="User" class="user-image">
+                                <h3 class="name">Kovács Bence</h3>
+                                <i class="feedback">Kiváló tea keverék! Lágy és gazdag ízvilág. Gyors szállítás is!</i>
+                            </li>
+                            <li class="testimonials swiper-slide">
+                                <img src="img/user-2.jpg" alt="User" class="user-image">
+                                <h3 class="name">Tóth Anna</h3>
+                                <i class="feedback">Imádtam a francia teát! Tökéletesen kiegyensúlyozott és gazdag ízvilágú. Biztosan rendelek újra!</i>
+                            </li>
+                            <li class="testimonials swiper-slide">
+                                <img src="img/user5 (2).jpg" alt="User" class="user-image">
+                                <h3 class="name">Szabó László</h3>
+                                <i class="feedback">Pompás tea íz! Friss és gyors szállítással!</i>
+                            </li>
+                            <li class="testimonials swiper-slide">
+                                <img src="img/user-4.jpg" alt="User" class="user-image">
+                                <h3 class="name">Nagy Diana</h3>
+                                <i class="feedback">Kiváló minőség! Friss tealevelek és gyors szállítás. Nagyon ajánlott!</i>
+                            </li>
+                            <li class="testimonials swiper-slide">
+                                <img src="img/user5 (1).jpg" alt="User" class="user-image">
+                                <h3 class="name">Tóth Laura</h3>
+                                <i class="feedback">Imádtam a kínai teát! Tökéletesen kiegyensúlyozott. Biztosan rendelek újra!</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slider-buttom swiper-button-prev"></div>
+                        <div class="swiper-slider-buttom swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!-- Gallery section -->
+          <section class="gallery-section" id="gallery">
+            <h2 class="section-title">Galéria</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="img/22856.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="img/61575.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="img/18516.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="img/gallery4.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="img/gallery5.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="img/9846.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+          </section>
+
+          <!-- Contact section -->
+           <section class="contact-section" id="contact">
+            <h2 class="section-title">Elérhetőség</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>123 Kemping Út, Vadon, CA98765</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>info@teamagiashopwebsite.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+36 30 123 4567</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Hétfőtől péntekig: 9:00 - 17:00</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Szombat: 10:00 - 15:00</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Vasárnap: Zárva</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.codingnepalweb.com</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Neved" class="form-input" required>
+                    <input type="email" placeholder="Email címed" class="form-input" required>
+                    <textarea placeholder="A te üzeneted" class="form-input" required></textarea>
+                    <button class="submit-button">Elküldés</button>
+                </form>
+            </div>
+           </section>
+
+           <!-- Footer section -->
+           <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text"> 2025 Coffee Shop</p>
+
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy policy</a>
+                    <span class="separator">.</span>
+                    <a href="#" class="policy-link">Refound policy</a>
+                </p>
+            </div>
+           </footer>
+    </main>
+
+    <!-- Linking Swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Custom script -->
+    <script src="script.js"></script>
+</body>
+</html>
